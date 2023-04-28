@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Weather app</title>
+</head>
+<body class="bg-gradient-to-r from-cyan-400 to-blue-500">
+    <div class=" m-4">
+        <div class="grid grid-flow-col">
+            <div class="flex flex-col">
+                <div class="text-4xl text-white mx-10" id="date0"></div>
+                <div class="flex flex-row -translate-y-8">
+                    <div  class="" id="current-weather-icon0"></div>
+                    <div class="text-2xl text-white translate-y-9" id="current-weather-items0"></div>
+                </div>
+            </div>
+            <p class="hidden sm:block" id="Date"></p>
+        </div>
+        <div class="flex flex-wrap">
+            <div class="flex flex-col mt-4 md:mt-16 mx-4 md:mx-16 md:scale-150">
+                <div class="text-2xl text-white mx-6" id="date1"></div>
+                <div class="flex flex-row">
+                    <div  class="" id="current-weather-icon1"></div>
+                    <div class="text-sm font-medium text-white translate-y-5" id="current-weather-items1"></div>
+                </div>
+            </div>
+            <div class="flex flex-col mt-4 md:mt-16 md:mx-16 md:scale-150">
+                <div class="text-2xl text-white mx-6" id="date2"></div>
+                <div class="flex flex-row">
+                    <div  class="" id="current-weather-icon2"></div>
+                    <div class="text-sm font-medium text-white translate-y-5" id="current-weather-items2"></div>
+                </div>
+            </div>
+            <div class="flex flex-col mt-4 mx-4 md:mt-16 md:mx-16 md:scale-150">
+                <div class="text-2xl text-white mx-6" id="date3"></div>
+                <div class="flex flex-row">
+                    <div  class="" id="current-weather-icon3"></div>
+                    <div class="text-sm font-medium text-white translate-y-5" id="current-weather-items3"></div>
+                </div>
+            </div>
+            <div class="flex flex-col mt-4 mx-4 md:mt-16 md:mx-16 md:scale-150">
+                <div class="text-2xl text-white mx-6" id="date4"></div>
+                <div class="flex flex-row">
+                    <div  class="" id="current-weather-icon4"></div>
+                    <div class="text-sm font-medium text-white translate-y-5" id="current-weather-items4"></div>
+                </div>
+            </div>            
+            <div class="flex flex-col mt-4 mx-4 md:mt-16 md:mx-16 md:scale-150">
+                <div class="text-2xl text-white mx-6" id="date5"></div>
+                <div class="flex flex-row">
+                    <div  class="" id="current-weather-icon5"></div>
+                    <div class="text-sm font-medium text-white translate-y-5" id="current-weather-items5"></div>
+                </div>
+            </div>
+            <div class="flex flex-col mt-4 mx-4 md:mt-16 md:mx-16 md:scale-150">
+                <div class="text-2xl text-white mx-6" id="date6"></div>
+                <div class="flex flex-row">
+                    <div id="current-weather-icon6"></div>
+                    <div class="text-sm font-medium text-white translate-y-5" id="current-weather-items6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="weather_script.js"></script>
+</body>
+</html>

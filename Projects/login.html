@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="rounded-xl mx-auto md:flex md:border-2 md:shadow-md mt-16 md:max-w-screen-md ">
+    <div class="mx-auto max-w-md min-w-fits">
+      <p class="my-2 ml-2 text-blue-800 font-semibold text-1xl">Company name</p>
+      <p class="mt-8 text-blue-600 font-bold text-3xl text-center">Sign in to Account</p>
+      <p class="text-blue-600 font-bold text-2xl text-center">___________</p>
+      <form>
+        <div class="relative mx-10 my-10">
+          <input type="email" id="email" class="block px-2.5 p-2.5 w-72 text-sm bg-transparent rounded-md border-2 focus:border-none  border-gray-300 appearance-none focus:outline-none focus:ring-2 focus:ring-blue-500  peer" placeholder=" " />
+          <label for="email" class="absolute text-md text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-1 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Email</label>
+        </div>
+        <div class="relative mx-10 mt-10">
+          <input type="password" id="password" class="block px-2.5 p-2.5 w-72 text-sm bg-transparent rounded-md border-2 focus:border-none  border-gray-300 appearance-none focus:outline-none focus:ring-2 focus:ring-blue-500  peer" placeholder=" " />
+          <label for="password" class="absolute text-md text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-1 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Password</label>
+        </div>
+        <div class="flex mx-10 mt-3">
+          <div class="flex"><input type="checkbox"><p class="-ml-2 scale-75  text-blue-800 font-semibold">Remember me</p></div>
+          <a class="ml-12 scale-90 text-blue-800 font-medium" href="">Forget Password?</a>
+        </div>
+        <button type="submit" class="mx-28 my-10 bg-blue-500 text-white rounded-full px-10 py-2">Sign In</button>
+      </form>
+      <div class="my-6 md:hidden">
+        <p class="scale-95 mx-12 text-gray-600">Don't have an Account, <a class="scale-75 text-blue-700 font-semibold" href="signup.html">SignUp</a></p>
+      </div>
+      <div class="flex flex-row  mt-20 scale-75 text-gray-500">
+        <p class="flex-1 text-left">Privacy Policy</p>
+        <p class="flex-1 text-right" >Terms and Conditions</p>
+      </div>
+    </div>
+    <div class="rounded-r-xl hidden md:block bg-gradient-to-r from-cyan-500 to-blue-500 md:w-full">
+      <div class="mx-auto mt-32">
+        <p class="text-center text-3xl text-white font-bold">Hello, Friend</p>
+        <p class="text-center text-3xl text-white font-bold">________</p>
+        <p class="my-3 text-center text-mg text-white font-semibold">Not Register Yet, Register here</p>
+        <button class="text-white font-semibold rounded-lg shadow-lg mx-32 border-2 border-white px-12 py-3"><a href="signup.html">SignUp</a></button>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
